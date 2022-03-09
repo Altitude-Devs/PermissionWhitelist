@@ -62,10 +62,10 @@ tasks {
 
 dependencies {
     // Minimessage
-    compileOnly("net.kyori:adventure-text-minimessage:4.10.0-SNAPSHOT")
+    shadow("net.kyori:adventure-text-minimessage:4.10.0-SNAPSHOT")
     // Velocity
-    compileOnly("com.velocitypowered:velocity-api:3.0.1")
-    annotationProcessor("com.velocitypowered:velocity-api:3.0.1")
+    compileOnly("com.velocitypowered:velocity-api:3.1.0")
+    annotationProcessor("com.velocitypowered:velocity-api:3.1.0")
     // Configurate
-    compileOnly("org.spongepowered:configurate-yaml:4.1.2")
+    shadow("org.spongepowered:configurate-yaml:4.1.2")
 }

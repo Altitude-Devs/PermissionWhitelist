@@ -2,7 +2,7 @@ rootProject.name = "PermissionWhitelist"
 
 dependencyResolutionManagement {
     repositories {
-        mavenLocal()
+//        mavenLocal()
         mavenCentral()
         // Velocity
         maven("https://nexus.velocitypowered.com/repository/maven-public/")
